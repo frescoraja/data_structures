@@ -8,7 +8,6 @@ class Link
   def remove
     self.prev.next, self.next.prev = self.next, self.prev
     self.next, self.prev = nil, nil
-    self
   end
   protected
   attr_writer :prev, :next
