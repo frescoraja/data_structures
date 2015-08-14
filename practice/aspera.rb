@@ -1,0 +1,3 @@
+def aspera(dictionary)
+
+end
